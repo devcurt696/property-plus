@@ -1,6 +1,6 @@
 import '@/assets/styles/globals.css';
 import Navbar from '@/components/Navbar';
-
+import Footer from '@/components/Footer';
 
 export const metadata = {
     title: 'Property Plus | Find your dream home',
@@ -14,6 +14,7 @@ const MainLayout = ({ children }) => {
         <body>
             <Navbar />
             <div>{children}</div>
+            <Footer />
         </body>
     </html>
   )
